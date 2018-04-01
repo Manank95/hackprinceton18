@@ -1,0 +1,71 @@
+[debug] [2018-04-01T12:26:11.792Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T12:26:11.793Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\manan\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T12:26:11.794Z] CLI Version:   3.17.7
+[debug] [2018-04-01T12:26:11.794Z] Platform:      win32
+[debug] [2018-04-01T12:26:11.794Z] Node Version:  v8.9.3
+[debug] [2018-04-01T12:26:11.794Z] Time:          Sun Apr 01 2018 08:26:11 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-01T12:26:11.794Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T12:26:11.805Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T12:26:11.806Z] > authorizing via signed-in user
+[debug] [2018-04-01T12:26:11.808Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hackprinceton-e8564  
+  
+ Sun Apr 01 2018 08:26:11 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-01T12:26:12.151Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T12:26:12.153Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hackprinceton-e8564/tokens  
+  
+ Sun Apr 01 2018 08:26:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-01T12:26:12.552Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T12:26:12.554Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackprinceton-e8564  
+  
+ Sun Apr 01 2018 08:26:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-01T12:26:12.773Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\Stevens Study\hack-princeton-s18'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T12:26:14.251Z] Fetching environment
+[debug] [2018-04-01T12:26:14.254Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/217199252982:getServerAppConfig  
+  
+ Sun Apr 01 2018 08:26:14 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-01T12:26:14.255Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/217199252982/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 08:26:14 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-01T12:26:14.703Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T12:26:14.750Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T12:26:14.751Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T12:26:17.114Z] Parsing function triggers
+[info] [hosting] Rewriting / to local function app
+[info] +  functions: app: http://localhost:5001/hackprinceton-e8564/us-central1/app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /public/vendor/bootstrap/css/bootstrap.min.css to local function app
+[info] [hosting] Rewriting /public/vendor/font-awesome/css/font-awesome.min.css to local function app
+[info] [hosting] Rewriting /public/vendor/simple-line-icons/css/simple-line-icons.css to local function app
+[info] [hosting] Rewriting /public/css/stylish-portfolio.min.css to local function app
+[info] [hosting] Rewriting /result to local function app
+[info] [hosting] Rewriting /public/vendor/bootstrap/css/bootstrap.min.css to local function app
+[info] [hosting] Rewriting /public/vendor/font-awesome/css/font-awesome.min.css to local function app
+[info] [hosting] Rewriting /public/vendor/simple-line-icons/css/simple-line-icons.css to local function app
+[info] [hosting] Rewriting /public/vendor/bootstrap/js/bootstrap.bundle.min.js to local function app
+[info] [hosting] Rewriting /public/css/stylish-portfolio.min.css to local function app
+[info] [hosting] Rewriting /public/vendor/jquery/jquery.min.js to local function app
+[info] [hosting] Rewriting /public/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 to local function app
+[info] [hosting] Rewriting /public/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 to local function app
+[info] [hosting] Rewriting /public/vendor/jquery-easing/jquery.easing.min.js to local function app
+[info] [hosting] Rewriting /public/js/stylish-portfolio.min.js to local function app
+[info] [hosting] Rewriting /result to local function app
+[info] [hosting] Rewriting /result to local function app
+[info] [hosting] Rewriting /public/vendor/bootstrap/css/bootstrap.min.css to local function app
+[info] [hosting] Rewriting /public/vendor/font-awesome/css/font-awesome.min.css to local function app
+[info] [hosting] Rewriting /public/vendor/simple-line-icons/css/simple-line-icons.css to local function app
+[info] [hosting] Rewriting /public/css/stylish-portfolio.min.css to local function app
+[info] [hosting] Rewriting /public/vendor/jquery/jquery.min.js to local function app
+[info] [hosting] Rewriting /public/vendor/bootstrap/js/bootstrap.bundle.min.js to local function app
+[info] [hosting] Rewriting /public/vendor/jquery-easing/jquery.easing.min.js to local function app
+[info] [hosting] Rewriting /public/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 to local function app
+[info] [hosting] Rewriting /public/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 to local function app
+[info] [hosting] Rewriting /public/js/stylish-portfolio.min.js to local function app
+[info] [hosting] Rewriting /public/img/bg-masthead.jpg to local function app
